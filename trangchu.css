@@ -1,0 +1,153 @@
+.header__items {
+	display: flex;
+}
+
+.header__item {
+	
+	list-style: none;
+	padding:15px;
+}
+
+/* .header__item:hover {
+	background-color: rgb(130, 225, 130);
+	cursor: pointer;
+} */
+
+.header__item:hover .header__item-link {
+	color: rgb(195, 27, 27);
+}
+
+.header__item-link {
+	text-decoration: none;
+	color: rgb(18, 12, 12);
+}
+.nav-brand{
+    max-width: 40px;
+    height: 10px;
+}
+.logo img{
+    height: 80px;
+    margin-top: 50px;
+	margin-left: 50px;
+}
+#anh1{
+	height: 200px;
+	width: 300px;
+}
+.menu ul li {
+	display: inline;
+	margin-left: 50px;
+	text-align: center;	
+	list-style-type: none;
+	font-size: 22px;
+	color: black; 
+}
+.menu ul{
+	margin-top: -35px;
+	margin-right: 100px;
+	text-align: right;
+}
+.menu ul li a:link{
+	text-decoration: none;
+	color: rgb(165, 12, 12);
+}
+.menu ul li a:hover{
+	color: rgb(77, 77, 232);
+	text-decoration:underline;
+}
+.tongquat{
+	margin-top: 150px;
+	color: black;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+	height: 100px;
+	border: 1px solid block;
+}
+#post1{
+	background-color:white;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#post2 {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+#post3{
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+#post4{
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#post5 {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+#post6{
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+/* hieu ung anh */
+.hieuunganh {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.hieuunganh img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.hieuunganh img:hover {
+    transform: scale(1.2);
+}
+/* hieu ung chu */
+.hieuungchu h2:hover{
+   margin-bottom: 100px;
+   color: rgb(230, 118, 118);
+}
+/* bai 1 */
+#tieude{
+	font-size: 45px;
+	margin-left: 300px;
+	color: black;
+}
+#vanban{
+	margin-left: 300px;
+	font-size: 20px;
+	width: 600px;
+	color: #636363
+}
+.end{
+	margin-top: 300px;
+	margin-left: 100px;
+	color:black;
+}
+.anh img{
+	width: 600px;
+	height: 400px;
+}
+body {
+
+	background: #fff;
+	
+	color: #ccc;
+	
+	}
